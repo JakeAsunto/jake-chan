@@ -1,0 +1,84 @@
+{
+  "name": "jake-chan",
+  "version": "2.6.5",
+  "description": "fca na fca pa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Avery, David, Maude, Benjamin, KanzuWakazaki, Badaimdweeb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChoruTiktokers182/fb-anya/issues"
+  },
+  "homepage": "https://github.com/ChoruTiktokers182/fb-anya#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakeAsunto/fca-jake.git"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "axios": "^1.2.1",
+    "bluebird": "^2.11.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "semver": "latest",
+    "totp-generator": "0.0.14",
+    "url": "0.11.0",
+    "websocket-stream": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "Fb anya",
+    "fb-Anya",
+    "anya",
+    "Anya",
+    "choru",
+    "jake",
+    "anjelo",
+    "jake-fca",
+    "fca-anjelo",
+    "jake fca",
+    "ChoruTiktokers182"
+  ]
+}
