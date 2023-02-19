@@ -15,7 +15,7 @@ if (!fs.existsSync("./Jake_Config.json")) {
     global.fca = new Object ({
     data: new Object ({
     languages: "english",
-    Support: "languages: english, tagalog, thailand, cebuano, vietnam, japan"
+    Support: ["languages: english, tagalog, thailand, cebuano, vietnam, japan"],
     mainName: "[ FCA - JAKE ]",
     mainColor: "#00FFFF",
     autoRestartMinutes: 0,
